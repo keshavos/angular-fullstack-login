@@ -11,6 +11,9 @@
     "bower",
     "fullstack"
   ],
+  "main" : [
+  "./controllers/login.js", "./services/auth.js", "./services/session.js"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
@@ -19,10 +22,6 @@
     "tests"
   ],
   "private":false,
-  "license": "MIT",
-  "homepage": "https://github.com/keshavos/angular-fullstack-login",
-  "dependencies" : {
-    "backbone" : "latest",
-    "requirejs" : "latest"
-  }
+  "license": "BSD Clause 2",
+  "homepage": "https://github.com/keshavos/angular-fullstack-login"
 }
