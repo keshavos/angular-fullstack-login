@@ -12,7 +12,7 @@
     "fullstack"
   ],
   "main" : [
-  "./controllers/login.js", "./services/auth.js", "./services/session.js"
+  "./app/controllers/login.js", "./app/services/auth.js", "./app/services/session.js"
   ],
   "ignore": [
     "**/.*",
